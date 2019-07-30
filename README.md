@@ -9,6 +9,7 @@ function commentrends(X,Y,varargin)
 X--the stockcodes of the treatment-group stocks,it's a column vector
 Y--the dependent variables which we wanna know how the event has influenced it. The first column is stockcodes and other column is the data organized by the time
 varargin--the independent variables, organized like Y.
+The file data-trial can be used to test this program.
 
 # methods
 In order to keep their trends same, Harris and Bae proposed a method which controls some independent variables that influence the dependent variable we want to research. Through controlling the distance between the independent variable as close as possible, we will satisfy the hypothesis.
